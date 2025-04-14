@@ -18,7 +18,7 @@ export const LogoImage = styled.div`
   height: 70px;
   margin: 0px 400px 0px 0px;
 
-  background-image: url("/DOCTORBIZ_LOGO.png");
+  background-image: url(${process.env.PUBLIC_URL}/DOCTORBIZ_LOGO.png);
   background-size: cover; /* 이미지가 컨테이너를 꽉 채우도록 */
   background-position: center; /* 중앙 정렬 */
   background-repeat: no-repeat; /* 반복하지 않도록 */

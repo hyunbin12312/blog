@@ -137,19 +137,19 @@ const Main = () => {
           <MainPTag style={{ marginTop: "40px" }}>01.</MainPTag>
           <HoverTextWithImage
             text={"브랜드블로그 관리 대행"}
-            imgSrc={"/photo1.jpg"}
+            imgSrc={process.env.PUBLIC_URL + "/photo1.jpg"}
             imgAlt={"Image 1"}
           />
           <MainPTag style={{ marginTop: "40px" }}>02.</MainPTag>
           <HoverTextWithImage2
             text={"스토리텔링 중심 콘텐츠 제작"}
-            imgSrc={"/photo2.jpg"}
+            imgSrc={process.env.PUBLIC_URL + "/photo2.jpg"}
             imgAlt={"Image 2"}
           />
           <MainPTag style={{ marginTop: "40px" }}>03.</MainPTag>
           <HoverTextWithImage
             text={"네이버플레이스 최적화"}
-            imgSrc={"/photo3.jpg"}
+            imgSrc={process.env.PUBLIC_URL + "/photo3.jpg"}
             imgAlt={"Image 3"}
           />
         </MainContent5>
@@ -161,7 +161,7 @@ const Main = () => {
           <div style={{ height: "50px" }} />
           <div
             style={{
-              backgroundImage: 'url("/ChatImage.png")',
+              backgroundImage: `url(${process.env.PUBLIC_URL}/ChatImage.png)`,
               backgroundPosition: "center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",

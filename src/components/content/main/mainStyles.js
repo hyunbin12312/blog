@@ -13,7 +13,7 @@ export const BackgroundContainer = styled.div`
   margin-top: 100px;
   width: 100%;
   height: 100vh;
-  background-image: url("/MainContainer_image2.jpg");
+  background-image: url(${process.env.PUBLIC_URL}/MainContainer_image2.jpg);
   background-size: cover;
   background-position: center;
   z-index: -1;
